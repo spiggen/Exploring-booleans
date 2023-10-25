@@ -351,14 +351,14 @@ $$\begin{align*}
 \end{align*}$$
 
 
-Thus, we gt the final formula:
+Thus, we get the final formula:
 
 $$\begin{align*}
 \int\int\int {}_{\dots}^{\;n} \int_{X}^{0}&f_1(x)(x\in[x_1,x_2])dx^n \\
 =& F_1^n(x)(x\in[x_1, x_2]) - \sum_{i=1}^{n} \frac{1}{(n-i)!}F_1^{i}(x_1)(x-x_1)^{n-i}(x\in[x_1, x_2]) \\
 &+ \sum_{m=0}^{n-1} 
 \bigg[F_1^{n-m}(x_2) - \sum_{i=1}^{n-m} \frac{1}{(n-i - m)!}F_1^{i}(x_1)(x_2-x_1)^{n-i - m}\bigg]\frac{1}{m!}(x-x_2)^{m}(x\in(x_2, \infty))
-\end{align*}$$
+\end{align*}$
 
 While clunky, this sum only requires as much integration as integrating $F_1(x)$ under normal circumstances, when it's domain is not constrained to $x\in[x_1,x_2]$. The rest of the terms are just lower order integrals and constants.
 
